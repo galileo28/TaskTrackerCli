@@ -1,0 +1,15 @@
+{
+  "name": "tasktrackercli",
+  "version": "1.0.0",
+  "description": "A CLI tool to manage your tasks—track what's to do, in progress, and done. Perfect for practicing CLI and programming basics!",
+  "main": "index.js",
+  "bin": {
+    "tasktrackercli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
