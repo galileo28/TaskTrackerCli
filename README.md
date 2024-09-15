@@ -16,30 +16,33 @@ TaskTrackerCLI is a command-line interface tool designed to help you manage your
 
 1. Clone this repository:
 
-git clone https://github.com/galileo28/TaskTrackerCli.git
-
+    ```bash
+    git clone https://github.com/galileo28/TaskTrackerCli.git
+    ```
 
 2. Navigate to the project directory:
 
-cd tasktrackercli
-
+    ```bash
+    cd tasktrackercli
+    ```
 
 3. Install dependencies:
 
-npm install
-
+    ```bash
+    npm install
+    ```
 
 4. Link the package globally:
 
-npm link
-
+    ```bash
+    npm link
+    ```
 
 ## Usage
 
 After installation, you can use the `task-cli` command to manage your tasks:
 
-task-cli <command> [options]
-
+    task-cli <command> [options]
 
 ### Available Commands
 
@@ -56,3 +59,7 @@ task-cli <command> [options]
 * `commands/`: Contains individual command modules
 * `lib/taskManager.js`: Core task management logic
 * `utils/fileHandler.js`: Handles file operations for task persistence
+
+## Challenge Solution
+
+This project is a solution to a challenge from [roadmap.sh](https://roadmap.sh/projects/task-tracker). It is designed to demonstrate CLI and task management concepts in a practical application.
